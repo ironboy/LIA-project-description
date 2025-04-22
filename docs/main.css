@@ -1,5 +1,18 @@
 img[src*="thomas.jpg"] {
   border-radius: 50%;
-  width: 100px;
+  width: 150px;
   float: right;
+}
+
+h3 {
+  margin-top: 20px !important;
+  margin-bottom: 3px !important;
+}
+
+p {
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 30px !important;
 }
