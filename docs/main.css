@@ -26,3 +26,33 @@ p {
 h2 {
   margin-bottom: 30px !important;
 }
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 2cm 2cm;
+  }
+
+  body {
+    background-color: white;
+    font-size: 90%;
+    margin: 0 100px;
+  }
+}
+
+#bottom {
+  bottom: 1cm;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  background-color: #000;
+}
+
+#bottom:after {
+  content: "Hej";
+}
+
+li {
+  margin-bottom: 12px;
+}
