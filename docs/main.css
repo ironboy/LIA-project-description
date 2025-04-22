@@ -1,3 +1,5 @@
 img[src*="thomas.jpg"] {
   border-radius: 50%;
+  width: 100px;
+  float: right;
 }
