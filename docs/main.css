@@ -3,7 +3,7 @@ body {
   line-height: 150%;
 }
 
-img[src*="thomas.jpg"] {
+img[src*="tom.jpg"] {
   border-radius: 50%;
   width: 150px;
   float: right;
