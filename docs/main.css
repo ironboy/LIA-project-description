@@ -1,7 +1,17 @@
+body {
+  font-size: 115%;
+  line-height: 150%;
+}
+
 img[src*="thomas.jpg"] {
   border-radius: 50%;
   width: 150px;
   float: right;
+  margin-left: 20px;
+}
+
+blockquote {
+  color: rgba(0, 0, 0, .8);
 }
 
 h3 {
