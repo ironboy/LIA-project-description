@@ -4,6 +4,7 @@ body {
 }
 
 img[src*="tom.jpg"] {
+  margin-top: 40px;
   border-radius: 50%;
   width: 150px;
   float: right;
@@ -12,6 +13,11 @@ img[src*="tom.jpg"] {
 
 blockquote {
   color: rgba(0, 0, 0, .8);
+}
+
+h1 {
+  margin: 0;
+  margin-top: 20px;
 }
 
 h3 {
@@ -31,28 +37,24 @@ h2 {
   @page {
     size: A4 portrait;
     margin: 2cm 2cm;
+    margin-bottom: 2.5cm;
+  }
+
+  @page {
+    @bottom-center {
+      content: counter(page);
+      font-size: 9pt;
+      color: #333;
+    }
   }
 
   body {
     background-color: white;
     font-size: 90%;
-    margin: 0 100px;
+    margin: 0;
   }
-}
 
-#bottom {
-  bottom: 1cm;
-  left: 0;
-  width: 100%;
-  position: fixed;
-  height: 50px;
-  background-color: #000;
-}
-
-#bottom:after {
-  content: "Hej";
-}
-
-li {
-  margin-bottom: 12px;
+  li {
+    margin-bottom: 12px;
+  }
 }
