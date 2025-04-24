@@ -33,6 +33,10 @@ h2 {
   margin-bottom: 30px !important;
 }
 
+li {
+  margin-bottom: 12px;
+}
+
 @media print {
   @page {
     size: A4 portrait;
@@ -54,7 +58,4 @@ h2 {
     margin: 0;
   }
 
-  li {
-    margin-bottom: 12px;
-  }
 }
